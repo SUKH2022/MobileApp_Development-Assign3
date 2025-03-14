@@ -13,7 +13,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Sukhpreet_Saini_COMP2125_Sec001_Lab03_Exercise1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login Info Page" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kmV-N6-9nS">
@@ -63,7 +63,7 @@
         <!--Project View Controller-->
         <scene sceneID="o68-k1-lm5">
             <objects>
-                <viewController storyboardIdentifier="ProjectViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="nIl-BV-SJO" customClass="ProjectViewController" customModule="Exercise01" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ProjectViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="nIl-BV-SJO" customClass="ProjectViewController" customModule="Sukhpreet_Saini_COMP2125_Sec001_Lab03_Exercise1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1YE-mD-GNT">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -142,7 +142,6 @@
         <!--Navigation Controller-->
         <scene sceneID="iXO-az-suL">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hkh-gZ-1rz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2ki-l3-FJa" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Trj-YK-IBy">
@@ -154,12 +153,13 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="s9f-Ql-9Fl"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hkh-gZ-1rz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-850" y="-35"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="s9f-Ql-9Fl"/>
+        <segue reference="bbQ-sC-eOk"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="labelColor">
